@@ -46,7 +46,7 @@ main {
     gap: clamp(1.75rem, 5vh, 2.75rem);
 }
 .logo {
-    width: min(78vw, 46vh, 26rem);
+    width: min(78vw, 100vh, 30rem);
     min-width: 13rem;
     aspect-ratio: 1;
     border-radius: 50%;
@@ -99,9 +99,4 @@ nav {
 @media (max-width: 30rem) {
     nav { flex-direction: column; }
     .link { flex-basis: auto; }
-}
-@media (max-height: 560px) and (orientation: landscape) {
-    main { flex-direction: row; max-width: 54rem; gap: 2.5rem; }
-    .logo { width: min(40vw, 78vh); }
-    nav { flex-direction: column; }
 }
