@@ -1,0 +1,6 @@
+{
+  "redirects": [
+    { "source": "/photos",     "destination": "https://www.flickr.com/photos/195922194@N04/", "permanent": false },
+    { "source": "/instagram",  "destination": "https://www.instagram.com/rundagio87/",        "permanent": false }
+  ]
+}
